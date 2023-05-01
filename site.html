@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
-</head>
+<html>
 <body>
-<iframe width="100%" height="936" frameborder="0"
-  src="https://observablehq.com/embed/@course-munk2/course-munk-prototype@988?cells=swatch%2Cdont"></iframe>
-<h1>My Website</h1>
-<p>A website created by me.</p>
+
+<h1>CourseMUNK</h1>
+
+<div id="observablehq-83f55e7f"></div>
+<p>Credit: <a href="https://observablehq.com/@course-munk2/course-munk-prototype">C🍩urse Munk by Course Munk</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/@course-munk2/course-munk-prototype.js?v=3";
+new Runtime().module(define, Inspector.into("#observablehq-83f55e7f"));
+</script>
 
 </body>
 </html>
